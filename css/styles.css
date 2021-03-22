@@ -1,0 +1,149 @@
+:root {
+  --body-style: #212121;
+  --logo: #000000;
+  --web-color: #2196f3;
+  --contakts: #757575;
+  --service: #fff;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.body-style {
+  font-family: "Roboto", sans-serif;
+  color: var(--body-style);
+  margin: 0;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--logo);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.web-color {
+  color: var(--web-color);
+}
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contakts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--contakts);
+  text-decoration: none;
+}
+.contakts:hover {
+  color: var(--web-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--web-color);
+}
+.link {
+  color: var(--logo);
+  text-decoration: none;
+}
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--contakts);
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--body-style);
+}
+.text-main {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: var(--contakts);
+}
+.text-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--contakts);
+}
+.name-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--body-style);
+}
+.service {
+  background: var(--web-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--service);
+  cursor: pointer;
+}
+.lockation-style {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--body-style);
+}
+.filter-portfolio {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--body-style);
+  cursor: pointer;
+}
+.filter-portfolio:hover,
+.filter-portfolio:focus {
+  background-color: var(--web-color);
+  color: var(--service);
+}
+.portfolio-titel-four {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--body-style);
+}
+.filter-portfolio-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--contakts);
+}
+.list {
+  list-style: none;
+}
+.strengths {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--body-style);
+}
